@@ -84,9 +84,11 @@ window.onscroll = function(){
     
     if(search !=null){
         if(document.body.scrollTop > 115){
-    search.style.background="#9A0808"; 
+    search.style.background="#9A0808";
+            search.style.top="0";
     }else{
       search.style.background=""; 
+      search.style.top="auto";
     }
         
     }
