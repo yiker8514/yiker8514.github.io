@@ -335,8 +335,7 @@ for(var i=0;i<sortnav.length;i++){
 }
 
 var close = document.getElementById("close")
-var ad = document.getElement`
-ById("ad")
+var ad = document.getElementById("ad")
 if(sessionStorage.ad == "f"){
     ad.style.display = "none";
 }else{
